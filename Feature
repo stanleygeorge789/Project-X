@@ -1,0 +1,1 @@
+DDL|DML|DQL|DCL|TCL|Joins|Constraints|Aggregate Functions|Embedded SQL|Recursive Queries|Window Functions|Spatial Data|XML Handling|Data Mining|Security|Portability|Scalability|Performance
