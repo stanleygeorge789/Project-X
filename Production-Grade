@@ -42,7 +42,7 @@ Programming — Python — ML is Python-first. Even when performance-critical pa
   01:45:00 - Loop Control: `break`, `continue` & `while` Loops
   02:00:00 - Advanced List Operations: Reversal & Slicing
   02:15:00 - List Comprehensions for High-Productivity Code
-  02:30:00 -Core Data Structures: Dictionaries, Sets & Tuples
+  02:30:00 - Core Data Structures: Dictionaries, Sets & Tuples
   02:45:00 - Writing Functions: `def`, `return`, `*args`, `**kwargs`
   03:00:00 - Exception Handling: Writing Failure-Resistant Code
   03:15:00 - `return` vs `finally` & Function Execution Flow
