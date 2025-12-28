@@ -1,2 +1,109 @@
-If you don’t plan the exit, the exit will eventually be forced.
-Pick a solution and commit to it.
+PHASE 0 — Prerequisites (If this is weak, everything collapses)
+-------------------------------------------------------------------
+OS & Debugging — Linux Production runs on Linux. Period. If you can’t navigate processes, permissions, filesystems, you are helpless when things break.
+Version Control — Git & GitHub This is not optional collaboration hygiene. It’s how experiments, pipelines, infra, and rollbacks survive reality.
+Programming — Python ML is Python-first. Even when performance-critical parts aren’t, orchestration and glue code are.
+Environments — Virtual Environments Dependency hell kills teams. Reproducibility starts here, not with Docker.
+Databases — SQL Data doesn’t magically appear as CSVs. SQL is how you interrogate reality.
+Debugging — System Logs & Process Inspection When training jobs die at 2 a.m., logs are the only truth you get.
+
+PHASE 1 — Math Intuition (You don’t need proofs, you need instinct)
+-----------------------------------------------------------------------
+Linear Algebra — Vectors, Matrices ML models are linear algebra. If this feels abstract, models will feel like magic — and magic fails silently.
+Optimization — Gradient Descent Training is optimization. No intuition here = no intuition for convergence, divergence, or learning rates.
+Neural Nets — Fundamentals Even if you don’t build them, you’ll debug, deploy, and monitor them.
+Probability — Distributions Uncertainty is the entire game. Predictions without probability thinking are lies.
+Calculus — Differential / Integral / Multivariable Backprop, loss surfaces, gradients — this is the language models speak.
+
+PHASE 2 — ML Theory Foundations (This separates engineers from button-clickers)
+-----------------------------------------------------------------------------------
+ML Framework — scikit-learn Baseline models. Sanity checks. Fast iteration. If your deep model can’t beat this, stop.
+Regression — Linear Regression The “hello world” of modeling — and shockingly effective in real systems.
+Tree Models — Decision Trees Interpretability and non-linearity without neural complexity.
+Ensembles — Random Forests Bias reduction without fragile tuning.
+Metrics — Accuracy, Precision, Recall, F1 Wrong metric = wrong business decision = wasted model.
+Ranking Metrics — ROC–AUC Binary classification isn’t binary in production.
+Regularization — Ridge, Lasso, Elastic Net Overfitting is the default. Regularization is the antidote.
+Validation — Cross-Validation One train-test split is amateur hour.
+Risk Analysis — Bias–Variance Explains why your model fails, not just that it failed.
+Data Risk — Leakage Detection Leakage gets you fake success and real-world embarrassment.
+
+PHASE 3 — Data Handling (Most ML failures happen here)
+----------------------------------------------------------
+Data Manipulation — Pandas Exploration, cleaning, feature prep — the unglamorous core.
+Numerical Computing — NumPy Performance, vectorization, memory control.
+Storage Formats — Parquet Scales better than CSV. Faster. Cheaper.
+Columnar Memory — Apache Arrow Zero-copy data sharing. Critical at scale.
+Data Quality — Great Expectations Bad data silently kills models. This catches it early.
+Profiling — ydata-profiling You can’t fix what you don’t understand.
+Big Data (Awareness) — Apache Spark You may not use it daily, but you must understand its trade-offs.
+Lakehouse (Awareness) — Delta Lake Modern data platforms are built on this idea.
+
+PHASE 4 — Python Engineering (ML code is still software)
+------------------------------------------------------------
+OOP — Python OOP Reusable pipelines, clean abstractions, testable code.
+Testing — pytest Models change. Bugs multiply. Tests keep sanity.
+Logging — Python logging Print statements don’t scale past your laptop.
+Typing — Type Hints Prevents entire classes of bugs before runtime.
+Dependency Mgmt — Dependency Injection Decouples components. Makes systems evolvable.
+Profiling — Performance Profilers Slow models cost money. This tells you where.
+
+PHASE 5 — MLOps (Where most ML careers stall)
+-------------------------------------------------
+Data Versioning — DVC Models are meaningless without the data version that created them.
+Experiment Tracking — MLflow If you can’t reproduce a result, it doesn’t exist.
+Feature Stores — Feast Prevents training–serving skew.
+ML Monitoring — Evidently / Arize Models rot. Drift is inevitable.
+Pipelines — End-to-End ML Pipelines Manual steps don’t scale. Automation is survival.
+
+PHASE 6 — DevOps (ML doesn’t get special treatment in prod)
+---------------------------------------------------------------
+Containers — Docker “If it works on my machine” is not an excuse.
+Orchestration — Kubernetes Scaling, resilience, scheduling — solved problems you shouldn’t re-invent.
+Packaging — Helm Deployments without chaos.
+Observability — Prometheus, Grafana If you can’t see it, you can’t fix it.
+Infrastructure as Code — Terraform Manual infra is technical debt on day one.
+CI/CD — GitHub Actions, Azure DevOps Shipping models should be boring and repeatable.
+Deployment — Blue-Green, Canary Minimize blast radius when things go wrong — because they will.
+
+PHASE 7 — Security (Ignored until breach, then panic)
+---------------------------------------------------------
+Identity — Managed Identity No hardcoded credentials. Ever.
+Secrets — Key Vault Secrets in code = breach waiting to happen.
+Authorization — RBAC Least privilege is non-negotiable.
+Supply Chain — Snyk, Aqua Dependencies are attack vectors.
+ML Security — OWASP ML Top 10 Models can be attacked, poisoned, exploited.
+LLM Security — OWASP LLM Top 10 Prompt injection and data exfiltration are real threats.
+Reliability — Chaos Engineering Systems fail. Design for it. 
+
+PHASE 8 — Cloud for MLOps (Where budgets go to die if unmanaged)
+--------------------------------------------------------------------
+Cloud Platform — Azure Enterprise ML lives here.
+Compute — Azure Compute Right-size or burn money.
+Storage — Azure Storage Cost, latency, durability trade-offs matter.
+Networking — Azure Networking Security and performance depend on this.
+ML Platform — Azure ML Managed experimentation, training, deployment.
+Monitoring — Azure Monitor Cloud-native observability.
+Cost Control — Azure Cost Management Your model isn’t impressive if it’s unaffordable.
+
+PHASE 9 — Orchestration (Glue for everything above)
+-------------------------------------------------------
+Workflow Engine — Airflow Complex dependencies, retries, scheduling.
+Orchestration (Alt) — Prefect More Pythonic, less ops-heavy alternative.
+
+PHASE 10 — LLMOps (Modern ML reality)
+-----------------------------------------
+Inference Engines — vLLM / Triton Serving LLMs efficiently is a different game.
+Optimization — Quantization Inference costs matter more than training.
+Vector Search — Vector Databases RAG doesn’t work without this.
+Serving — FastAPI Models are APIs, not notebooks.
+LLM Monitoring — LangSmith / Arize LLMs fail in creative, dangerous ways.
+
+PHASE 11 — Portfolio (Proof beats certificates)
+---------------------------------------------------
+Reproducibility — Docker Anyone should be able to run your work.
+Orchestration — Airflow Shows system-level thinking.
+ML Lifecycle — MLflow Demonstrates experiment discipline.
+Cloud ML — Azure ML Signals production readiness.
+Monitoring — Observability Stack Shows you understand failure.
+Cost Tracking — Dashboards Senior engineers think in money.
