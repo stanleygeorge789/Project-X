@@ -55,6 +55,16 @@ Programming — Python — ML is Python-first. Even when performance-critical pa
  05:00:00 - Simulating Workloads: `sleep`, `random` & Sequential Execution
  05:15:00 - Parallel Execution: `ThreadPoolExecutor`, `map()` & `requests`
 Environments — Virtual Environments — Dependency hell kills teams. Reproducibility starts here, not with Docker.
+ 00:00:00 - Why Virtual Environments Exist (Dependency & Version)
+ 00:01:20 - What a Virtual Environment Is (Python Version + Libraries)
+ 00:02:10 - How Python Imports Work (sys.path Explained)
+ 00:03:55 - Creating a Virtual Environment with venv
+ 00:06:10 - Activating a Virtual Environment (Windows / macOS / Linux)
+ 00:07:25 - How PATH Changes When a Virtual Environment Is Activated
+ 00:09:55 - Installing Packages Inside a Virtual Environment (pip)
+ 00:11:55 - Managing Dependencies with requirements.txt
+ 00:13:40 - Version Pinning & Semantic Versioning (Best Practices)
+ 00:15:10 - When to Use venv vs Pipenv (Final Advice)
 Databases — SQL | Data doesn’t magically appear as CSVs. SQL is how you interrogate reality.
 Debugging — System Logs & Process Inspection | When training jobs die at 2 a.m., logs are the only truth you get.
 
