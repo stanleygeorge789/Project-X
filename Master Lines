@@ -1,6 +1,6 @@
 PHASE 0 — Prerequisites (If this is weak, everything collapses)
 -------------------------------------------------------------------
-OS & Debugging — Linux Production runs on Linux. Period. If you can’t navigate processes, permissions, filesystems, you are helpless when things break.
+OS & Debugging — Linux Production runs on Linux. If you can’t navigate processes, permissions, filesystems, you are helpless when things break.
 Version Control — Git & GitHub This is not optional collaboration hygiene. It’s how experiments, pipelines, infra, and rollbacks survive reality.
 Programming — Python ML is Python-first. Even when performance-critical parts aren’t, orchestration and glue code are.
 Environments — Virtual Environments Dependency hell kills teams. Reproducibility starts here, not with Docker.
