@@ -55,30 +55,30 @@ Programming — Python — ML is Python-first. Even when performance-critical pa
 - 05:00:00 - Simulating Workloads: `sleep`, `random` & Sequential Execution
 - 05:15:00 - Parallel Execution: `ThreadPoolExecutor`, `map()` & `requests`
 Environments — Virtual Environments — Dependency hell kills teams. Reproducibility starts here, not with Docker.
-  00:00:00 - Why Virtual Environments Exist (Dependency & Version)
-  00:01:20 - What a Virtual Environment Is (Python Version + Libraries)
-  00:02:10 - How Python Imports Work (sys.path Explained)
-  00:03:55 - Creating a Virtual Environment with venv
-  00:06:10 - Activating a Virtual Environment (Windows / macOS / Linux)
-  00:07:25 - How PATH Changes When a Virtual Environment Is Activated
-  00:09:55 - Installing Packages Inside a Virtual Environment (pip)
-  00:11:55 - Managing Dependencies with requirements.txt
-  00:13:40 - Version Pinning & Semantic Versioning (Best Practices)
-  00:15:10 - When to Use venv vs Pipenv (Final Advice)
+- 00:00:00 - Why Virtual Environments Exist (Dependency & Version)
+- 00:01:20 - What a Virtual Environment Is (Python Version + Libraries)
+- 00:02:10 - How Python Imports Work (sys.path Explained)
+- 00:03:55 - Creating a Virtual Environment with venv
+- 00:06:10 - Activating a Virtual Environment (Windows / macOS / Linux)
+- 00:07:25 - How PATH Changes When a Virtual Environment Is Activated
+- 00:09:55 - Installing Packages Inside a Virtual Environment (pip)
+- 00:11:55 - Managing Dependencies with requirements.txt
+- 00:13:40 - Version Pinning & Semantic Versioning (Best Practices)
+- 00:15:10 - When to Use venv vs Pipenv (Final Advice)
 Databases — SQL | Data doesn’t magically appear as CSVs. SQL is how you interrogate reality.
-  00:00:00 - SQL Foundations & Schema Basics
-  00:00:15 - Data Manipulation & Filtering
-  00:00:30 - Sorting, Limiting & Aggregation Basics
-  00:00:45 - JOIN Fundamentals
-  01:00:00 - Advanced Joins & Set Operations
-  01:15:00 - Conditional Logic & NULL Handling
-  01:30:00 - String, Date & Math Functions
-  01:45:00 - Window Functions: Core Concepts
-  02:00:00 - Ranking & Partitioning
-  02:15:00 - Advanced Window Analytics
-  02:30:00 - Aggregations with Window Functions
-  02:45:00 - Subqueries: Core Mechanics
-  03:00:00 - Correlated & Derived Subqueries
+- 00:00:00 - SQL Foundations & Schema Basics
+- 00:00:15 - Data Manipulation & Filtering
+- 00:00:30 - Sorting, Limiting & Aggregation Basics
+- 00:00:45 - JOIN Fundamentals
+- 01:00:00 - Advanced Joins & Set Operations
+- 01:15:00 - Conditional Logic & NULL Handling
+- 01:30:00 - String, Date & Math Functions
+- 01:45:00 - Window Functions: Core Concepts
+- 02:00:00 - Ranking & Partitioning
+- 02:15:00 - Advanced Window Analytics
+- 02:30:00 - Aggregations with Window Functions
+- 02:45:00 - Subqueries: Core Mechanics
+- 03:00:00 - Correlated & Derived Subqueries
   03:15:00 - Complex Subquery Refactoring
   03:30:00 - Subquery Performance & Limits
   03:45:00 - Introduction to CTEs
