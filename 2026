@@ -10,3 +10,11 @@ Q: Why is the capital -R important to remember?
 A: It differs from rm -r.
 Q: What is a user’s home directory?
 A: The directory for personal files.
+Q: Why is working outside the home directory risky?
+A: System directories are used by the OS and can be damaged.
+Q: Give examples of system directories to avoid.
+A: /bin, /etc.
+Q: Why keep projects organized inside one folder (e.g., workspace)?
+A: To avoid clutter and reduce risk.
+Q: What does ~ represent?
+A: The user’s home directory.
