@@ -76,10 +76,122 @@ Purpose ... Establish the BA as the owner of delivery outcomes, not a documentat
 LEVEL 1 ... ITSM & ITIL — Operational Mastery
 Purpose ... Ensure the BA thinks like operations, not like a project analyst.
 1.1 Incident Management (Priority, SLA, Major Incidents)
+1.1.1 Incident Definition & Scope
+........... What qualifies as an incident vs a request or problem
+........... Operational consequences of misclassification
+1.1.2 Priority & Severity Mapping
+........... Business impact vs technical urgency
+........... Priority calculation models
+........... Common priority misinterpretations
+1.1.3 SLA Lifecycle in Incidents
+........... SLA start, pause, resume, and stop conditions
+........... SLA behavior during reassignment and escalation
+........... SLA conflicts and overlapping SLAs
+1.1.4 Major Incident (P1) Handling
+........... Criteria for declaring a Major Incident
+........... Swarming vs hierarchical escalation
+........... Command-and-control communication models
+1.1.5 Incident Communication Obligations
+........... Internal vs customer-facing updates
+........... Update frequency and content standards
+........... Escalation communication failures
+1.1.6 Incident Closure & Validation
+........... Closure codes and resolution evidence
+........... Customer confirmation vs auto-closure risks
+........... Post-incident review triggers
 1.2 Problem Management (Root Cause, Known Errors)
+1.2.1 Incident vs Problem Distinction
+........... Symptom suppression vs root cause elimination
+........... Risks of overusing incidents
+1.2.2 Reactive vs Proactive Problem Management
+........... Trend-based problem identification
+........... Major incident follow-up as problem input
+1.2.3 Root Cause Analysis (RCA)
+........... Techniques (5 Whys, Fishbone, Fault Tree)
+........... Root cause vs contributing factors
+1.2.4 Known Error Records (KERs)
+........... Purpose and lifecycle
+........... Workaround documentation standards
+........... Operational value of known errors
+1.2.5 Problem Closure & Prevention
+........... Validation of permanent fixes
+........... Measuring problem management effectiveness
+
 1.3 Change Management (Risk, CAB, Rollback, Freeze)
+1.3.1 Change Types
+Standard vs Normal vs Emergency changes
+Risk exposure per change type
+
+1.3.2 Change Risk Assessment
+Impact, urgency, and probability
+Business vs technical risk
+
+1.3.3 CAB Governance
+CAB roles and decision authority
+Evidence required for approval
+
+1.3.4 Rollback & Backout Planning
+Mandatory rollback scenarios
+Validation of rollback feasibility
+
+1.3.5 Change Windows & Freeze Periods
+Maintenance windows
+Blackout periods
+Emergency change exceptions
+
+1.3.6 Post-Implementation Review (PIR)
+Success validation
+Lessons learned integration
+
 1.4 Request Fulfilment & Entitlements
+1.4.1 Request vs Incident Boundaries
+Misuse risks and SLA distortion
+User behavior patterns
+
+1.4.2 Service Catalog Design
+Catalog structure and clarity
+Preventing request misuse
+
+1.4.3 Approval & Entitlement Logic
+Role-based entitlements
+Auto-approval vs manual approval
+
+1.4.4 Fulfilment Workflows
+Automation opportunities
+Exception handling
+
+1.4.5 Audit & Compliance Considerations
+Evidence retention
+Access revocation requirements
+
 1.5 CMDB & Impact Analysis
+1.5.1 CMDB Purpose & Value
+CMDB as decision-support system
+Risks of inaccurate CMDB
+
+1.5.2 Configuration Items (CI)
+CI types and classification
+Lifecycle management
+
+1.5.3 CI Relationships
+Dependency mapping
+Service impact chains
+
+1.5.4 Impact Analysis
+Using CMDB for incident and change decisions
+False confidence from incomplete data
+
+1.5.5 CMDB Governance
+Data ownership
+Validation and reconciliation
+
+1.6 Section Exit Criteria (Pass / Fail)
+You pass Section 1 only if:
+You can predict SLA behavior without tools
+You prevent misclassification before it hits ops
+You challenge risky changes confidently
+You treat CMDB as a risk tool, not a diagram
+Fail here → you are not operationally safe.
 
 2. ITSM Platform Behavior (ServiceNow-Class Systems)
 2.1 Core Data Model (Incident, Task, CI, User, Group)
