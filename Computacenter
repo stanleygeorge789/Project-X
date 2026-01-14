@@ -73,7 +73,8 @@ Purpose ... Establish the BA as the owner of delivery outcomes, not a documentat
 ........... Accountability is visible, not claimed
 ........... Fail here → no progression to Section 1.
 
-1. ITSM & ITIL — Operational Mastery
+LEVEL 1 ... ITSM & ITIL — Operational Mastery
+Purpose ... Ensure the BA thinks like operations, not like a project analyst.
 1.1 Incident Management (Priority, SLA, Major Incidents)
 1.2 Problem Management (Root Cause, Known Errors)
 1.3 Change Management (Risk, CAB, Rollback, Freeze)
